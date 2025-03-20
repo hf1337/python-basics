@@ -1,0 +1,7 @@
+# Инструменты
+.git
+.mypy_cache
+.venv
+.vscode
+.idea
+.tmp-projections
