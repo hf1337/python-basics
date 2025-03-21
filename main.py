@@ -5,5 +5,5 @@
 Любое коммерческое использование запрещено.
 """
 
-# Можно придерживаться одного стиля или действовать по ситуации
-print('"Khal Drogo\'s favorite word is "athjahakar""')
+# В таких случаях стоит быть внимательней
+print('- Did Joffrey agree?\n- He did. He also said "I love using \\n".')
