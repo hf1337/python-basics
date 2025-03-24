@@ -5,5 +5,5 @@
 Любое коммерческое использование запрещено.
 """
 
-# В таких случаях стоит быть внимательней
-print('- Did Joffrey agree?\n- He did. He also said "I love using \\n".')
+# Объединение нескольких строк в одну строку
+print("Fall " + "seven " + "times " + "and " + "stand " + "up " + "eight.")
