@@ -5,4 +5,7 @@
 .vscode
 .idea
 .tmp-projections
+
+# Временные файлы
 tempCodeRunnerFile.md
+tempCodeRunnerFile.py
