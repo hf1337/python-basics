@@ -5,10 +5,7 @@
 Любое коммерческое использование запрещено.
 """
 
-# Было присвоено одно значение, которое..
-greeting = "Brother!"
-print(greeting)
+first_num = 20  # первое число
+second_num = -100  # второе число
 
-# в процессе поменяли
-greeting = "Sister!"
-print(greeting)
+print(first_num * second_num)  # их произведение
