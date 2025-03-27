@@ -5,7 +5,14 @@
 Любое коммерческое использование запрещено.
 """
 
-first_num = 20  # первое число
-second_num = -100  # второе число
+euros_count = 100
 
-print(first_num * second_num)  # их произведение
+# Евро в долларах
+dollar_count = 100 * 1.25
+print(dollar_count)
+
+# Доллары в юанях
+yuans_count = dollar_count * 6.91
+print(yuans_count)
+
+print("Euros: " + str(euros_count) + " " + "Dollars: " + str(dollar_count) + " " + "Yuans: " + str(yuans_count))
