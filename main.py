@@ -5,7 +5,10 @@
 Любое коммерческое использование запрещено.
 """
 
-first_name = "Johnny"
-greeting = "Hello"
+# В большом кол-ве кода будет тяжело понять происхождение
+castles = 6
+rooms = 17
 
-print(greeting + ", " + first_name + "!")
+# Сохраняется краткость и информативность
+number_of_castles = 6
+rooms_per_castle = 17
