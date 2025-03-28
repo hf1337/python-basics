@@ -5,6 +5,8 @@
 Любое коммерческое использование запрещено.
 """
 
-# Число "Пи"
-PI = 3.14
-print(PI)
+first_name = "Brother"
+greeting = "Hello"
+
+print(f"Hello, {first_name}!")
+print(f"{greeting}, {first_name}!")
