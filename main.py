@@ -5,8 +5,27 @@
 Любое коммерческое использование запрещено.
 """
 
-first_name = "Brother"
-greeting = "Hello"
+# Длина строки девять символов
+first_name = "Alexander"
 
-print(f"Hello, {first_name}!")
-print(f"{greeting}, {first_name}!")
+# Если нам нужен первый символ, то из 1 - 1 = 0
+print(first_name[0])
+
+# Если нам нужен последний символ, то из 9 - 1 = 8
+print(first_name[8])
+
+# Обратный отсчёт идёт с конца
+print(first_name[-1])
+
+# Индекс записанный в переменную
+index = 0
+
+# Индекс равен 0 записанному в переменную index
+print(first_name[index])
+
+
+# Теперь длина строки десять символов..
+first_name = "Alex\nander"
+
+# соответственно индекс последней буквы будет равен девяти
+print(first_name[9])
