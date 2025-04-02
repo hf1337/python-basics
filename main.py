@@ -5,17 +5,7 @@
 Любое коммерческое использование запрещено.
 """
 
-value = "Python"
-print(value[::])  # "Python" — вся строка
-print(value[:])  # "Python" — вся строка
-print(value[::2])  # "Pto" — четные по порядку символы
-print(value[1::2])  # "yhn" — нечетные по порядку символы
-print(value[::-1])  # "nohtyP" — вся строка в обратном порядке
-print(value[5:])  # "n" — строка, начиная с шестого символа
-print(value[:5])  # "Pytho" — строка до шестого символа
-print(value[-2:1:-1])  # "oht" — все символы с предпоследнего до третьего включительно, в обратном порядке
-
-start = 1
-end = 5
-# На месте числовых значений можно использовать переменные
-print(value[start:end])  # "ytho"
+# Пример multi-line строки
+text = """But it was not an easy way, for what Fion's father did not know
+in arms could not be taught to him even by Morna. Still the hound that can wait
+will catch a hair at last and even Banan sleeps."""
