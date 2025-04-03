@@ -5,10 +5,14 @@
 Любое коммерческое использование запрещено.
 """
 
-value = 2.9
+# Создание нового объекта для правильного замены
+first_name = "Jack"
+first_name = "Back"
 
-# Пример двух преобразований
-int_value = int(value)
-str_value = str(int_value)
+print(first_name)  # => Back
 
-print((str_value) + " times")
+# Попытка изменения строки, которыя ведёт к ошибке
+first_name = "Jack"
+first_name[0] = "B"
+
+print(first_name)
