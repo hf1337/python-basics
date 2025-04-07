@@ -5,14 +5,14 @@
 Любое коммерческое использование запрещено.
 """
 
-# Создание нового объекта для правильного замены
-first_name = "Jack"
-first_name = "Back"
+# Пример использования функции print():
+result = 77
+print(result)
 
-print(first_name)  # => Back
+# Пример использования функции len():
+result = len("Hello!")
+print(result)
 
-# Попытка изменения строки, которыя ведёт к ошибке
-first_name = "Jack"
-first_name[0] = "B"
-
-print(first_name)
+# Пример использования функции pow():
+result = pow(2, 3)  # 2 * 2 * 2
+print(result)
