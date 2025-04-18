@@ -5,9 +5,14 @@
 Любое коммерческое использование запрещено.
 """
 
-# Исходный текст
-text = "We do not remember days, we remember moments"
+# Пример работы функции max()
+max_num = max(7, 10, 32, -3, 0, -3)
 
-# Первая и последняя буква текста
-result = f"First: {text[0]}\nLast: {text[-1]}"
-print(result)
+# Вывод максимального числа
+print(max_num)
+
+# Пример работы функции min()
+min_num = min(7, 10, 32, -3, 0, -3)
+
+# Вывод минимального числа
+print(min_num)
