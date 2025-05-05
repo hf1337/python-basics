@@ -5,12 +5,8 @@
 Любое коммерческое использование запрещено.
 """
 
-# Использование метода upper()
-upper_name = name.upper()
-print(upper_name)  # => "PYTHON"
+# Исходное значение
+first_name = "  Benny   \n"
 
-# Вызов напрямую
-"Python".upper()  # "PYTHON"
-
-# Пример метода не предназначенный для прямого вызова
-len('Hexlet')  # Вызывает 'Hexlet'.__len__()
+# Метод .strip(), вырезающий пробельные символы
+first_name = first_name.strip()  # Benny
