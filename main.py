@@ -6,7 +6,7 @@
 """
 
 # Переменная, содержащая в себе определённый текст
-text = "Never forget what you are, for surely the world will not"
+text = "When \t\n you play a \t\n game of thrones you win or you die."
 
-# Метод find() используется для поиска подстроки внутри строки
-print(f"Index Of N: {text.find("N")}\nIndex Of ,: {text.find(",")}")
+# Длина среза, обработанного методом strip()
+print(len(text[4:15].strip()))
