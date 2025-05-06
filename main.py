@@ -5,8 +5,8 @@
 Любое коммерческое использование запрещено.
 """
 
-# Исходное значение
-first_name = "  Benny   \n"
+# Переменная, содержащая в себе определённый текст
+text = "Never forget what you are, for surely the world will not"
 
-# Метод .strip(), вырезающий пробельные символы
-first_name = first_name.strip()  # Benny
+# Метод find() используется для поиска подстроки внутри строки
+print(f"Index Of N: {text.find("N")}\nIndex Of ,: {text.find(",")}")
